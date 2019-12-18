@@ -2,16 +2,15 @@ package plush
 
 // Gimme can give you a kiss or a cuddle
 func Gimme(what string) (t string) {
-	// if(what == "kiss")
 	switch what {
 	case "kiss":
-		t = "jjj"
+		t = "😘"
 		break
 	case "hug":
-		t = "mouah"
+		t = "🤗"
 		break
 	default:
-		t = "waaaaaaaat"
+		t = "waaaaaaaat!!!"
 		break
 	}
 	return t
